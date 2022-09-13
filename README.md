@@ -11,9 +11,9 @@ OUTPUT: In the only line of output, the postorder equivalent is printed.
 
 Sample:
 
-**INPUT:** a+b*(c*d-e)/(f+g*h)-i
+**INPUT:** a+b.(c.d-e)/(f+g.h)-i
 
-**OUTPUT:** abcd*e-fgh*+/*+i-
+**OUTPUT:** abcd.e-fgh.+/.+i-
 
 The solution is achieved by using a **stack**. The main part of the code for the conversion of inorder to postorder is as follows:
 
